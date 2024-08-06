@@ -14,6 +14,13 @@ public class MovingBackground : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.left * Time.deltaTime * speed);
+        transform.Translate(speed * Time.deltaTime * Vector3.left);
     }
+
+    // ! test test test this is a test
+
+    // void LateUpdate()
+    // {
+        
+    // }
 }
